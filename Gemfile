@@ -1,16 +1,25 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 gem 'rails', '3.2.15'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+=======
+gem 'rails', '3.2.8'
+
+group :development do
+  gem 'sqlite3', '1.3.5'
+end
+>>>>>>> 2a456c9e71743e1f4fdf8e0f26747451f3115083
 
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+<<<<<<< HEAD
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
@@ -36,3 +45,12 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+=======
+  gem 'sass-rails',   '3.2.5'
+  gem 'coffee-rails', '3.2.2'
+
+  gem 'uglifier', '1.2.3'
+end
+
+gem 'jquery-rails', '2.0.2'
+>>>>>>> 2a456c9e71743e1f4fdf8e0f26747451f3115083
